@@ -1,1 +1,56 @@
 /*  your css code here. If applicable */
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 24px;
+}
+
+.book-library {
+    background-color: #ffffff;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.book-library h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.book {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: 1px solid #eeeeee;
+}
+
+.book img {
+    display: block;
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    margin: 0 auto 12px;
+}
+
+.book h2 {
+    font-size: 16px;
+    margin: 8px 0 4px;
+}
+
+.author {
+    color: #777777;
+    margin: 0 0 10px;
+}
+
+.price {
+    background-color: #2ecc71;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: 600;
+}
